@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff
+}
+
+.card {
+    height: 520px;
+    width: 720px;
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    transition: all 0.5s;
+    overflow: hidden
+}
+
+.user {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex
+}
+
+.image_box {
+    width: 50%;
+    transition: all 0.5s
+}
+
+.form {
+    width: 50%;
+    transition: all 0.5s
+}
+
+.signup_form .image_box {
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.5s
+}
+
+.image_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.signup_form .form {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    transition: all 0.5s
+}
+
+.card.active .signup_form .image_box {
+    right: 100%
+}
+
+.card.active .signup_form .form {
+    left: 100%
+}
+
+.form h4 {
+    margin-top: 15px
+}
+
+.form p {
+    margin-top: 10px;
+    font-size: 13px
+}
+
+.signup_form .form .input_div {
+    width: 100%;
+    display: flex;
+    gap: 10px
+}
+
+.input_text {
+    width: 100%;
+    position: relative;
+    margin-top: 30px
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f4f4f4;
+    outline: 0;
+    padding: 0 5px
+}
+
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f4f4f4;
+    outline: 0;
+    padding: 0 5px;
+    padding-right: 25px
+}
+
+.input_text span {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 600
+}
+
+.fa-eye-slash {
+    position: absolute;
+    top: 13px;
+    right: 6px;
+    cursor: pointer
+}
+
+.fa-eye {
+    position: absolute;
+    top: 13px;
+    right: 6px;
+    cursor: pointer
+}
+
+.confirmation {
+    margin-top: 20px
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 9px
+}
+
+.checkbox span {
+    height: 22px;
+    width: 22px;
+    border: 1px solid #e4e6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.checkbox span i {
+    color: #fff
+}
+
+.checkbox p {
+    font-size: 12px;
+    margin-top: 0px
+}
+
+.checkbox p a {
+    text-decoration: none;
+    color: blue
+}
+
+.button {
+    margin-top: 30px
+}
+
+.button button {
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: #0070ff;
+    outline: 0;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.button button:hover {
+    background-color: #04387a
+}
+
+.button h4 {
+    margin-top: 9px
+}
+
+.button h4 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue
+}
+
+.signin_form .image_box {
+    width: 60%
+}
+
+.signin_form .form {
+    background-color: #fff;
+    padding: 20px
+}
+
+.remember_pass {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.remember {
+    display: flex;
+    align-items: center
+}
+
+.remember span {
+    height: 22px;
+    width: 22px;
+    border: 1px solid #e4e6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.remember span i {
+    color: #fff
+}
+
+.remember p {
+    font-size: 13px;
+    margin-top: 0px
+}
+
+.remember_pass a {
+    text-decoration: none;
+    font-size: 13px;
+    color: blue
+}
+
+.sign_in {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.sign_in button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #0070ff;
+    outline: 0;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.sign_in button:hover {
+    background-color: #04387a
+}
+
+.join_lottery {
+    margin-top: 30px;
+    text-align: center
+}
+
+.join_lottery span a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer
+}
+
+@media(max-width:700px) {
+    .container {
+        height: 800px !important
+    }
+
+    .card {
+        max-width: 350px;
+        height: 750px !important
+    }
+
+    .input_div {
+        display: block !important
+    }
+
+    .user .image_box {
+        display: none
+    }
+
+    .card .user .form {
+        width: 100%
+    }
+}
+
+.warning {
+    border: 1px solid red !important
+}
+
+.recieve_green {
+    background-color: green !important
+}
+
+.agree_green {
+    background-color: green !important
+}
+
+.pass_warn {
+    border: 1px solid red !important
+}
+
+.conf_warn {
+    border: 1px solid red !important
+}
+
+.passnone {
+    display: none
+}
+
+.warnnone {
+    display: none
+}
+
+.login_warning {
+    border: 1px solid red !important
+}
+
+.userwarn {
+    border: 1px solid red !important
+}
+
+.usernone {
+    display: none
+}
+
+.remember_green {
+    background-color: green !important
+}

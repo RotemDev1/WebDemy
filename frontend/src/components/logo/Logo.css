@@ -1,0 +1,12 @@
+.logo {
+  color: #ff9935;
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+
+.logo span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #32bddc;
+  font-weight: 800;
+}

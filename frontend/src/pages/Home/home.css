@@ -1,0 +1,112 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  color: #fe9f33;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-header{
+  width: 30rem;
+  height: 40px;
+  padding: 8px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #4796d8;
+  border-radius: 4px  ;
+}
+
+.search-header::placeholder{
+  font-size: 20px;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+.right-header {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-inline-end: 1.3rem;
+}
+
+.right-header button{
+  margin-inline-end: 12px;
+}
+
+.main-image {
+  border-radius: 8px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.text{
+  font-size: 40px;
+  padding: 8px 0;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.text1{
+  font-size: 20px;
+  padding: 8px 0;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-image img {
+  width: 50%;
+  height:5%;
+  object-fit: fill ;
+  border-radius: 8px;
+
+}
+
+.btn-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #4796d8;
+  color: #333;
+  padding: 0.75rem 3rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.btn-header:hover {
+  background-color: #4796d8;
+  color: #fff;
+  border: none;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  background-color: #191947;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+

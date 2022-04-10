@@ -1,0 +1,223 @@
+export const Courses = [{
+    _id: '1',
+    photo: "assets/product/HTML.jpg",
+    mentor: 'Rotem Dayan',
+    price: 59.99,
+    category: `Web Development`,
+    title: `Build Responsive Real-World Websites with HTML and CSS`,
+    lead: `Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid`,
+    students: 23200,
+    language: `English`,
+    time: `7.5`,
+    tech: 'HTML & CSS',
+    rate: 4.5,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '2',
+    photo: "assets/product/JS.jpg",
+    mentor: 'Rotem Dayan',
+    category: `Web Development`,
+    title: `Build Responsive Real-World Websites with Java script`,
+    lead: `Learn modern Java script HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid`,
+    students: 23200,
+    language: `English`,
+    price: 49.99,
+    tech: 'Java script',
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident Java scriptdeveloper, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '3',
+    photo: "assets/product/NODEJS.jpg",
+    mentor: 'Brad Traversy',
+    category: `Web Development`,
+    title: `Build Node.js Real-World Server with Java script`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    price: 59.99,
+    tech: 'Node.js',
+    rate: 4.7,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '4',
+    photo: "assets/product/Redis.jpg",
+    mentor: 'Mor Cohen',
+    category: `Web Development`,
+    title: `Build Node.js Real-World Server with Redis`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    tech: "DB Redis",
+    price: 29.99,
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '5',
+    photo: "assets/postTech/8.jpg",
+    mentor: 'Tal Barak',
+    category: `Web Development`,
+    title: `Build Best Frontend with Angular`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    price: 39.99,
+    tech: "Angular",
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '6',
+    photo: "assets/postTech/17.jpg",
+    mentor: 'Mor Cohen',
+    category: `Web Development`,
+    title: `Build strong Next.js App`,
+    lead: `Learn modern Build strong Next.js App stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    price: 79.99,
+    tech: "Next.js",
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '7',
+    photo: "assets/postTech/14.jpeg",
+    mentor: 'Mor Cohen',
+    category: `Web Development`,
+    title: `Build Vue App`,
+    lead: `Learn modern Vue.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    price: 65.99,
+    tech: "Vue",
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '8',
+    photo: "assets/postTech/19.png",
+    mentor: 'Mor Cohen',
+    category: `Web Development`,
+    title: `Build Node.js Real-World Server with Redis`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    tech: "Flutter",
+    price: 19.99,
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '9',
+    photo: "assets/postTech/6.png",
+    mentor: 'Mor Cohen',
+    category: `Web Development`,
+    title: `Build Node.js Real-World Server with Redis`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    tech: "Flutter",
+    price: 19.99,
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+},
+{
+    _id: '10',
+    photo: "assets/postTech/11.jpg",
+    mentor: 'Rotem Dayan',
+    category: `Web Development`,
+    title: `Learn Mongo DB Real-World Server`,
+    lead: `Learn modern Node.js by building a stunning website for your portfolio! Includes flexbox and `,
+    students: 23200,
+    language: `English`,
+    tech: "Mongo DB",
+    price: 19.99,
+    rate: 4.2,
+    subjects: [
+        `Become a modern and confident HTML and CSS developer, no prior knowledge needed!`,
+        `Modern, semantic and accessible HTML5`,
+        `Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.`, `How to plan, sketch, design, build, test, and optimize a professional website`, `How to use common components and layout patterns for professional website design and development`,
+        `How to find and use free design assets such as images, fonts, and icons`,
+        `Design and build a stunning real-world project for your portfolio from scratch`,
+        `Modern CSS (previous CSS3), including flexbox and CSS Grid for layout`,
+        `A web design framework with easy-to-use rules and guidelines to design eye-catching websites`, `How to make websites work on every possible mobile device (responsive design)`, `Developer skills such as reading documentation, debugging, and using professional tools`, `Practice your skills with 10+ challenges (solutions included)`
+    ]
+}
+]
+export default Courses;
