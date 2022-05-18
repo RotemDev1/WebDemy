@@ -1,24 +1,27 @@
 import React from "react";
 import "./home.css"
-import home from '../../assets/home.jpeg';
-import { useDispatch, useSelector } from "react-redux";
+import { Showcase } from "../../components/Home/Showcase";
+import { Breadcrumbs } from "../../components/Home/Breadcrumbs";
+import { Info } from "../../components/Home/Info";
+import { About } from "../../components/Home/About";
 
 
 export const Home = (props) => {
 
     return (
-        <div className="header-container">
-            <div className='main-image'>
-                <img src={home} alt='homeimg' />
-            </div>
-            <text className="text">A broad selection of courses</text>
-            <div>
-                <text className="text1">
-                    Choose from 183,000 online video courses with new additions published every month
-                </text>
-            </div>
+        <div className="home">
+            <Showcase />
+            <Breadcrumbs />
+            <Info />
+            <About />
         </div>
     );
 };
 
-export default Home;
+{/* <div className="header-container">
+
+            <text className="text">A broad selection of courses</text>
+            <div>
+
+            </div>
+        </div> */}

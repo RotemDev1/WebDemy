@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { ProductCart } from "./ProductCart";
 export const CartList = ({ coursesCart, onPay }) => {
   const [totalPay, setTotalPay] = useState(0);
 
@@ -16,10 +16,7 @@ export const CartList = ({ coursesCart, onPay }) => {
       {coursesCart.length > 0 && (
         <ul className="cart-list">
           {coursesCart.map((course, index) => (
-            <li key={index} className="cart-line">
-              <h1>{course.title}</h1>
-              <h2>{course.price}$</h2>
-            </li>
+            <ProductCart product={course} index={index} />
           ))}
           {totalPay > 0 && <p className="total-cart">Total: <span>{totalPay}$</span></p>}
           <button

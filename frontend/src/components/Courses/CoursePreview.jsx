@@ -1,40 +1,27 @@
-import { Container } from "@material-ui/core";
 import React from "react";
-import { StyledContainer } from './styles/Courses.styles';
+import { addProductToCart } from "../../store/actions/PurchaseAction";
+import { useSelector, useDispatch } from "react-redux";
+export function CoursePreview({ course }) {
 
-import { YourStyledComponent, CoursesContainer, CoursesTitle, CourseButton } from "./styles/Courses.styles";
+  const dispatch = useDispatch();
+  const { id, language, img, price, mentor, category } = course;
+  const loggedInUser = useSelector((state) => state.userModule.loggedInUser);
+  const cart = useSelector((state) => state.purchaseModule.cart);
 
-import { Div2Component, ArticleComponent, ImgComponent, Div3Component } from './styles/Card.styles'
-
-// import { Link } from "react-router-dom"
-
-
-export function CoursePreview(props) {
-
-  const { language, img, price, mentor, category } = props.course;
+  const addCourseToCart = (cart, course) => {
+    dispatch(addProductToCart(cart, course))
+  }
 
   return (
-    <Div2Component>
-      <ArticleComponent>
-        <Div3Component>
-          <ImgComponent>
-            <img src={img} loading="lazy" />
-          </ImgComponent>
-          <CoursesTitle>
-            <h2>{mentor}</h2>
-            <h2>{language}</h2>
-            <h2>{category}</h2>
-            <h2>{price}</h2>
-          </CoursesTitle>
-        </Div3Component>
-        <CourseButton
-          onClick={() => {
-            props.onBuyCourse(props.course);
-          }}
-        >
-          Add To Cart
-        </CourseButton>
-      </ArticleComponent>
-    </Div2Component>
+    <div className="course-preview">
+      <div className="details">
+        <h4>{category}</h4>
+        <label className="mentor">{mentor}</label>
+      </div>
+      <div className="actions">
+        <button onClick={(cart, course) => { addCourseToCart(cart, course) }}>Add to cart</button>
+        {loggedInUser.role == "admin" && <button>Delete</button>}
+      </div>
+    </div>
   );
 }
