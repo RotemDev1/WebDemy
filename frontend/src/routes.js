@@ -4,7 +4,7 @@ import { CourseDetail } from './components/Courses/CourseDetail';
 import { LoginSignup } from './components/Login/LoginSignup';
 import { Admin } from './pages/Admin/Admin'
 import { Product } from './components/Admin/Product';
-import { User } from './components/Admin/User';
+import { User } from './components/Admin/User'
 
 export const routes = [
 
